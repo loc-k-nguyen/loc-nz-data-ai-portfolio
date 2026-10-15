@@ -1,0 +1,2 @@
+total_rows,distinct_periods,earliest_period_date,latest_period_date,distinct_geography_types,distinct_territorial_authorities,distinct_indicator_names,distinct_themes,missing_indicator_value_count,duplicate_looking_rows_count
+48953,230,1996-01-01,2026-04-01,2,67,64,11,0,61

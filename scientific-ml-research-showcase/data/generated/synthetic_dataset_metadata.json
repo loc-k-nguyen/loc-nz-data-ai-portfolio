@@ -1,0 +1,8 @@
+{
+  "dataset_type": "synthetic demonstration data",
+  "private_data_used": false,
+  "description": "2D permeability-like field and source Gaussian mapped to plume-like target field.",
+  "num_samples": 96,
+  "image_size": 32,
+  "random_seed": 42
+}

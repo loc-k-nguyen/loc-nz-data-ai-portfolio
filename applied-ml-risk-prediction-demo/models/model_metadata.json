@@ -1,0 +1,60 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer dataset via scikit-learn",
+  "target_column": "risk_label",
+  "positive_class": "risk_label=1 means malignant/high-risk demonstration class",
+  "id_column": "record_id",
+  "features": [
+    "mean_radius",
+    "mean_texture",
+    "mean_perimeter",
+    "mean_area",
+    "mean_smoothness",
+    "mean_compactness",
+    "mean_concavity",
+    "mean_concave_points",
+    "mean_symmetry",
+    "mean_fractal_dimension",
+    "radius_error",
+    "texture_error",
+    "perimeter_error",
+    "area_error",
+    "smoothness_error",
+    "compactness_error",
+    "concavity_error",
+    "concave_points_error",
+    "symmetry_error",
+    "fractal_dimension_error",
+    "worst_radius",
+    "worst_texture",
+    "worst_perimeter",
+    "worst_area",
+    "worst_smoothness",
+    "worst_compactness",
+    "worst_concavity",
+    "worst_concave_points",
+    "worst_symmetry",
+    "worst_fractal_dimension"
+  ],
+  "models_compared": [
+    "logistic_regression",
+    "random_forest"
+  ],
+  "validation_metrics": {
+    "logistic_regression": {
+      "accuracy": 0.967032967032967,
+      "precision": 0.9428571428571428,
+      "recall": 0.9705882352941176,
+      "f1": 0.9565217391304348,
+      "roc_auc": 0.9948400412796697
+    },
+    "random_forest": {
+      "accuracy": 0.967032967032967,
+      "precision": 0.9696969696969697,
+      "recall": 0.9411764705882353,
+      "f1": 0.9552238805970149,
+      "roc_auc": 0.9876160990712073
+    }
+  },
+  "selected_model": "logistic_regression",
+  "selection_rule": "highest validation ROC AUC when available, otherwise highest F1"
+}

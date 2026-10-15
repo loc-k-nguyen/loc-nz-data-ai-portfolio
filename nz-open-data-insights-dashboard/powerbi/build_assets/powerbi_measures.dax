@@ -1,0 +1,59 @@
+-- Power BI measures for the HUD Local Housing Statistics dashboard.
+-- Import powerbi/build_assets/dashboard_main.csv and rename the table to:
+-- housing_indicators
+--
+-- If Power BI changes table or column names during import, update the
+-- references below to match the imported model.
+
+Latest Period Date =
+MAX('housing_indicators'[period_date])
+
+Latest Period Label =
+FORMAT([Latest Period Date], "yyyy-mm-dd")
+
+Indicator Count =
+DISTINCTCOUNT('housing_indicators'[indicator_name])
+
+TA Count =
+CALCULATE(
+    DISTINCTCOUNT('housing_indicators'[territorial_authority]),
+    'housing_indicators'[geography_type] = "TA"
+)
+
+Data Row Count =
+COUNTROWS('housing_indicators')
+
+Average Indicator Value =
+AVERAGE('housing_indicators'[indicator_value])
+
+Selected Indicator Value =
+AVERAGE('housing_indicators'[indicator_value])
+
+Latest Selected Indicator Value =
+VAR LatestDate =
+    CALCULATE(
+        MAX('housing_indicators'[period_date]),
+        ALLSELECTED('housing_indicators'[period_date])
+    )
+RETURN
+    CALCULATE(
+        [Selected Indicator Value],
+        'housing_indicators'[period_date] = LatestDate
+    )
+
+NZ Latest Selected Indicator Value =
+VAR LatestDate =
+    CALCULATE(
+        MAX('housing_indicators'[period_date]),
+        ALLSELECTED('housing_indicators'[period_date])
+    )
+RETURN
+    CALCULATE(
+        [Selected Indicator Value],
+        'housing_indicators'[period_date] = LatestDate,
+        'housing_indicators'[geography_type] = "NZ"
+    )
+
+Difference from NZ Latest Value =
+[Latest Selected Indicator Value] - [NZ Latest Selected Indicator Value]
+

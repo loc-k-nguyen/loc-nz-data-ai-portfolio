@@ -1,0 +1,20 @@
+[project]
+name = "loc-nz-data-ai-portfolio"
+version = "0.1.0"
+description = "New Zealand data and AI portfolio: public-data analytics, SQL and Power BI workflow, applied ML evaluation, and scientific ML research engineering."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Loc K. Nguyen" }]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

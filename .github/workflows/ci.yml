@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  checks:
+    name: Lint, tests, portfolio health
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install numpy pandas pyyaml matplotlib scikit-learn
+
+      - name: Lint with ruff
+        run: python -m ruff check .
+
+      - name: Byte-compile all projects
+        run: |
+          python -m compileall -q nz-open-data-insights-dashboard
+          python -m compileall -q applied-ml-risk-prediction-demo
+          python -m compileall -q scientific-ml-research-showcase
+
+      - name: Portfolio health check
+        run: python scripts/check_portfolio_health.py
+
+      - name: Run tests
+        env:
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: "1"
+        run: python -m pytest tests -q

@@ -1,0 +1,102 @@
+theme,indicator_name,unit,geography_type,row_count,earliest_period,latest_period
+Affordability,Current Median-Median ratio,,TA,66,2025-12-01,2025-12-01
+Affordability,Deposit affordability index,index,NZ,89,2003-12-31,2025-12-31
+Affordability,Deposit affordability index,index,TA,5874,2003-12-31,2025-12-31
+Affordability,Deposit affordability index annual change,index,NZ,1,2025-12-31,2025-12-31
+Affordability,Deposit affordability index annual change,index,TA,66,2025-12-31,2025-12-31
+Affordability,Mortgage affordability index,index,NZ,89,2003-12-31,2025-12-31
+Affordability,Mortgage affordability index,index,TA,5874,2003-12-31,2025-12-31
+Affordability,Mortgage affordability index annual change,index,NZ,1,2025-12-31,2025-12-31
+Affordability,Mortgage affordability index annual change,index,TA,66,2025-12-31,2025-12-31
+Affordability,Rent affordability index,index,NZ,97,2001-12-31,2025-12-31
+Affordability,Rent affordability index,index,TA,6402,2001-12-31,2025-12-31
+Affordability,Rent affordability index annual change,index,NZ,1,2025-12-31,2025-12-31
+Affordability,Rent affordability index annual change,index,TA,66,2025-12-31,2025-12-31
+Affordability,Timeseries Median-Median ratio,,NZ,100,2001-03-31,2025-12-31
+Affordability,Timeseries Median-Median ratio,,TA,6600,2001-03-31,2025-12-31
+Bonds,1-year Average Rent Price,$,TA,65,2024-11-01,2024-11-01
+Bonds,1-year Average Rent Price,rank,TA,65,2024-11-01,2024-11-01
+Bonds,1-year Lower Quartile Rent Price,$,TA,65,2024-11-01,2024-11-01
+Bonds,1-year Lower Quartile Rent Price,rank,TA,65,2024-11-01,2024-11-01
+Bonds,1-year Median Rent Price,$,TA,65,2024-11-01,2024-11-01
+Bonds,1-year Median Rent Price,rank,TA,65,2024-11-01,2024-11-01
+Bonds,5-year Average Rent Price,$,TA,66,2020-11-01,2020-11-01
+Bonds,5-year Average Rent Price,rank,TA,66,2020-11-01,2020-11-01
+Bonds,5-year Lower Quartile Rent Price,$,TA,66,2020-11-01,2020-11-01
+Bonds,5-year Lower Quartile Rent Price,rank,TA,66,2020-11-01,2020-11-01
+Bonds,5-year Median Rent Price,$,TA,66,2020-11-01,2020-11-01
+Bonds,5-year Median Rent Price,rank,TA,66,2020-11-01,2020-11-01
+Bonds,Average Rent Price,$,TA,64,2025-11-01,2025-11-01
+Bonds,Average Rent Price,rank,TA,64,2025-11-01,2025-11-01
+Bonds,Lower Quartile Rent Price,$,TA,64,2025-11-01,2025-11-01
+Bonds,Lower Quartile Rent Price,rank,TA,64,2025-11-01,2025-11-01
+Bonds,Median Rent Price,$,TA,64,2025-11-01,2025-11-01
+Bonds,Median Rent Price,rank,TA,64,2025-11-01,2025-11-01
+Building Consents,Annual Number of Building Consents,,NZ,1,2026-03-01,2026-03-01
+Building Consents,Annual Number of Building Consents,,TA,67,2026-03-01,2026-03-01
+Building Consents,Building Consents per 10k population,per 10k population,TA,67,2026-03-01,2026-03-01
+Census Crowding,1 bedroom needed (crowded),,NZ,4,2023-01-01,2023-01-01
+Census Crowding,1 bedroom needed (crowded),,TA,64,2023-01-01,2023-01-01
+Census Crowding,1 bedroom spare,,NZ,5,2023-01-01,2023-01-01
+Census Crowding,1 bedroom spare,,TA,64,2023-01-01,2023-01-01
+Census Crowding,2 + bedrooms needed (severely crowded),,NZ,4,2023-01-01,2023-01-01
+Census Crowding,2 + bedrooms needed (severely crowded),,TA,64,2023-01-01,2023-01-01
+Census Crowding,2 or more bedrooms spare,,NZ,4,2023-01-01,2023-01-01
+Census Crowding,2 or more bedrooms spare,,TA,64,2023-01-01,2023-01-01
+Census Crowding,Maori Crowding Rank,rank,TA,64,2023-01-01,2023-01-01
+Census Crowding,No extra bedrooms required,,NZ,5,2023-01-01,2023-01-01
+Census Crowding,No extra bedrooms required,,TA,64,2023-01-01,2023-01-01
+Census Crowding,Not stated,,NZ,5,2023-01-01,2023-01-01
+Census Crowding,Not stated,,TA,64,2023-01-01,2023-01-01
+Census Crowding,Percent crowded,,NZ,5,2023-01-01,2023-01-01
+Census Crowding,Percent crowded,,TA,64,2023-01-01,2023-01-01
+Census Crowding,Total,,NZ,5,2023-01-01,2023-01-01
+Census Crowding,Total,,TA,64,2023-01-01,2023-01-01
+Census Crowding,Total crowded,,NZ,5,2023-01-01,2023-01-01
+Census Crowding,Total crowded,,TA,64,2023-01-01,2023-01-01
+Census Crowding,Total stated,,NZ,5,2023-01-01,2023-01-01
+Census Crowding,Total stated,,TA,64,2023-01-01,2023-01-01
+Census Housing Deprivation,Housing Deprivation,,TA,67,2023-01-01,2023-01-01
+Census Tenure,Owner-occupier Household Proportion,%,NZ,12,2013-01-01,2023-01-01
+Census Tenure,Owner-occupier Household Proportion,%,TA,402,2013-01-01,2023-01-01
+Census Tenure,Owner-occupier Household Proportion Rank,rank,NZ,12,2013-01-01,2023-01-01
+Census Tenure,Owner-occupier Household Proportion Rank,rank,TA,402,2013-01-01,2023-01-01
+Census Tenure,Renting Household Proportion,%,NZ,12,2013-01-01,2023-01-01
+Census Tenure,Renting Household Proportion,%,TA,402,2013-01-01,2023-01-01
+Census Tenure,Renting Household Proportion Rank,rank,NZ,12,2013-01-01,2023-01-01
+Census Tenure,Renting Household Proportion Rank,rank,TA,402,2013-01-01,2023-01-01
+MSD,1-year Change in Housing Register,%,TA,66,2025-04-01,2025-04-01
+MSD,1-year change in Housing Register per 10k population,,NZ,1,2025-04-01,2025-04-01
+MSD,1-year change in Housing Register per 10k population,,TA,64,2025-04-01,2025-04-01
+MSD,5-year Change in Housing Register,%,TA,65,2021-04-01,2021-04-01
+MSD,5-year change in Housing Register per 10k population,,NZ,1,2021-04-01,2021-04-01
+MSD,5-year change in Housing Register per 10k population,,TA,65,2021-04-01,2021-04-01
+MSD,Housing Register,,TA,6721,2017-06-01,2026-04-01
+MSD,Housing Register per 10k population,,NZ,107,2017-06-01,2026-04-01
+MSD,Housing Register per 10k population,,TA,6721,2017-06-01,2026-04-01
+RPI,1-year Rent Price Index,RPI,TA,66,2025-03-31,2025-03-31
+RPI,5-year Rent Price Index,RPI,TA,66,2021-03-31,2021-03-31
+RPI,Current Rent Price Index,RPI,TA,66,2026-03-31,2026-03-31
+Rent Proportion,Households whose rent is equal to or more than 25% of income,%,TA,334,2001-01-01,2023-01-01
+Rent Proportion,Households whose rent is equal to or more than 30% of income,%,TA,334,2001-01-01,2023-01-01
+Rent Proportion,Households whose rent is equal to or more than 40% of income,%,TA,331,2001-01-01,2023-01-01
+Rent Proportion,Households whose rent is equal to or more than 40% of income rank,rank,TA,335,2001-01-01,2023-01-01
+Rent Proportion,Households whose rent is equal to or more than 50% of income,%,TA,331,2001-01-01,2023-01-01
+Rent Proportion,Households whose rent is equal to or more than 50% of income rank,rank,TA,335,2001-01-01,2023-01-01
+Rent Proportion,Households whose rent is less than 25% of income,%,TA,335,2001-01-01,2023-01-01
+Rent Proportion,Income or rent not stated,%,TA,67,2023-01-01,2023-01-01
+Rent Proportion,Total,%,TA,67,2023-01-01,2023-01-01
+Rent Proportion,Total renting households,%,TA,268,2001-01-01,2018-01-01
+Rent Proportion,Total renting households (with records for both income and rent),%,TA,268,2001-01-01,2018-01-01
+Rent Proportion,Total stated,%,TA,67,2023-01-01,2023-01-01
+Sales,1-year Annual Lower Quartile Sales Price,$,TA,66,2025-02-01,2025-02-01
+Sales,1-year Annual Median Sales Price,$,TA,66,2025-02-01,2025-02-01
+Sales,5-year Annual Lower Quartile Sales Price,$,TA,66,2021-02-01,2021-02-01
+Sales,5-year Annual Median Sales Price,$,TA,66,2021-02-01,2021-02-01
+Sales,5-year House Price Index,HPI,TA,66,2021-03-01,2021-03-01
+Sales,Current Annual Lower Quartile Sales Price,$,TA,65,2026-02-01,2026-02-01
+Sales,Current Annual Median Sales Price,$,TA,65,2026-02-01,2026-02-01
+Sales,Current House Price Index,HPI,TA,66,2025-12-01,2025-12-01
+Sales,Current number of Annual Sales volume,,TA,67,2026-02-01,2026-02-01
+population,Population,,NZ,31,1996-01-01,2026-01-01
+population,Population,,TA,2077,1996-01-01,2026-01-01

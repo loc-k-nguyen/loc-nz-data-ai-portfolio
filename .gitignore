@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Data and model artifacts
+data/raw/
+nz-open-data-insights-dashboard/data/raw/*
+!nz-open-data-insights-dashboard/data/raw/README.md
+nz-open-data-insights-dashboard/outputs/*.sqlite
+*.pkl
+*.joblib
+!applied-ml-risk-prediction-demo/models/risk_prediction_model.joblib
+*.pt
+!scientific-ml-research-showcase/models/scientific_surrogate_model.pt
+*.pth
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Local environment and temporary files
+.env
+.env.*
+*.tmp
+*.temp
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Agent tooling (local only)
+.claude/

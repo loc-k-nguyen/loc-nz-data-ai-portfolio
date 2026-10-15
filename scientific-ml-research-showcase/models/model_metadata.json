@@ -1,0 +1,24 @@
+{
+  "experiment_name": "synthetic_plume_surrogate_demo",
+  "synthetic_data": true,
+  "private_data_used": false,
+  "model_name": "mini_unet",
+  "device": "cuda",
+  "num_samples": 96,
+  "image_size": 32,
+  "epochs": 10,
+  "test_metrics": {
+    "mae": 0.051088206470012665,
+    "rmse": 0.08165550231933594,
+    "relative_mae": 0.2803429663181305,
+    "field_correlation": 0.7016938924789429,
+    "simple_ssim_like": 0.6055042147636414
+  },
+  "evaluation_metrics": {
+    "mae": 0.051088206470012665,
+    "rmse": 0.08165550231933594,
+    "relative_mae": 0.2803429663181305,
+    "field_correlation": 0.7016938924789429,
+    "simple_ssim_like": 0.6055042147636414
+  }
+}

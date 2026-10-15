@@ -1,0 +1,20 @@
+experiment_name: synthetic_plume_surrogate_demo
+synthetic_data: true
+random_seed: 42
+data_dir: data/generated
+output_dir: outputs
+model_dir: models
+
+num_samples: 96
+image_size: 32
+input_channels: 2
+target_channels: 1
+train_fraction: 0.7
+validation_fraction: 0.15
+
+model_name: mini_unet
+base_channels: 12
+batch_size: 8
+epochs: 10
+learning_rate: 0.001
+device: auto
