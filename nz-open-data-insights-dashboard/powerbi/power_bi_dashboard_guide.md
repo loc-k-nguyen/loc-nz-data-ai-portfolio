@@ -1,3 +1,5 @@
+> Historical build reference. Use the [completed report](report/README.md) for the tested model, PBIX and PDF. Generic aggregation examples here are not used by the finished report.
+
 # Power BI Manual Build Guide
 
 ## Fast Build Path

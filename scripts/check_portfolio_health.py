@@ -45,10 +45,9 @@ EXPECTED_OUTPUTS = [
 
 
 EXPECTED_SCREENSHOTS = [
-    "nz-open-data-insights-dashboard/screenshots/executive_summary.png",
-    "nz-open-data-insights-dashboard/screenshots/territorial_authority_comparison.png",
-    "nz-open-data-insights-dashboard/screenshots/indicator_trend.png",
-    "nz-open-data-insights-dashboard/screenshots/data_quality_methodology.png",
+    "docs/assets/powerbi-page-1.png",
+    "docs/assets/powerbi-page-2.png",
+    "docs/assets/powerbi-page-3.png",
 ]
 
 

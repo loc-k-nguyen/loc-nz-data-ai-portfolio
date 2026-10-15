@@ -1,3 +1,5 @@
+> Historical build reference. Use the [completed report](../report/README.md) for the tested model, PBIX and PDF. Generic aggregation examples here are not used by the finished report.
+
 # Dashboard Page Specification
 
 Use `dashboard_main.csv` as the main Power BI input and rename the table to `housing_indicators`.

@@ -12,6 +12,19 @@ Open `http://localhost:8842`. The preserved cleaned HUD CSV is included. The bui
 
 The `Rebuild housing dashboard` GitHub Actions workflow runs on pushes and pull requests and can also be started manually. It checks reproducibility, tests unit/date/duplicate handling, and uploads the static site as a workflow artifact. GitHub Pages serves the committed `docs/` folder.
 
+## Power BI source project
+
+The [finished report](nz-open-data-insights-dashboard/powerbi/report/) includes a tested PBIX and native PDF. Open the PBIX in Desktop to explore the embedded preserved extract. Refresh does not download a newer source.
+
+To regenerate editable PBIP/PBIR and model definitions:
+
+```bash
+python scripts/build_powerbi_report.py
+python -m pytest tests/test_housing_dashboard.py tests/test_powerbi_report.py -q
+```
+
+Back up or commit manual edits first: this generator overwrites project definitions and resets its validation status to unverified. It does not generate PBIX binaries or validate Desktop behavior. Open/refresh the project in Desktop, run the read-only native DAX checks documented in the report README, inspect interactions and all pages, save as PBIX, reopen, and export PDF before publishing new binaries. Keep the browser data and report extract on the same source vintage.
+
 ## Original workbook pipeline
 
 The original April 2026 workbook is not redistributed here. If you hold that exact extract, place it in the documented `data/raw/` folder, install the project requirements, then run:

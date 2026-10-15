@@ -18,7 +18,7 @@ jobs:
       - name: Reproduce dashboard data and verify committed output
         run: python scripts/build_housing_dashboard.py --check
       - name: Test units, dates, and duplicate handling
-        run: python -m pytest tests/test_housing_dashboard.py -q
+        run: python -m pytest tests/test_housing_dashboard.py tests/test_powerbi_report.py -q
       - uses: actions/upload-artifact@v4
         with:
           name: housing-dashboard

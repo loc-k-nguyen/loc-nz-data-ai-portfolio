@@ -58,9 +58,10 @@ SERIES = [
         "ethnicity": "",
         "label": "Rent at least 30% of income",
         "displayUnit": "% of households",
+        "displayScale": 100,
         "note": (
             "Census-based rent-to-income measure. Read the source population definition; "
-            "this is not a monthly estimate."
+            "this is not a monthly estimate. Stored fractions use percentage display: 0.426 = 42.6%."
         ),
     },
     {

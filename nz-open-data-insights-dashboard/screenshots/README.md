@@ -1,6 +1,6 @@
 # Screenshots
 
-Store Power BI dashboard screenshots here after the dashboard has been built and validated.
+Verified native Power BI PDF page exports are in [`docs/assets/`](../../docs/assets/) as `powerbi-page-1.png` through `powerbi-page-3.png`. The [completed report](../powerbi/report/) includes the PBIX and native PDF.
 
 Required screenshot checklist:
 

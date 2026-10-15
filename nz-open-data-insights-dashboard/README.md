@@ -1,6 +1,6 @@
 # NZ Local Housing Statistics Insights Dashboard
 
-**Status:** A working [browser dashboard](https://loc-k-nguyen.github.io/loc-nz-data-ai-portfolio/) is now available, with automated SQLite selection, quality checks, and CSV downloads. The separate Power BI build kit is available; a finished Power BI report is not claimed.
+**Status:** A working [browser dashboard](https://loc-k-nguyen.github.io/loc-nz-data-ai-portfolio/) is now available, with automated SQLite selection, quality checks, and CSV downloads. The [completed Power BI report](powerbi/report/) includes a downloadable PBIX, editable source, three-page PDF and actual Desktop validation results.
 
 Run `python scripts/build_housing_dashboard.py` from the repository root. See [reproduction](../REPRODUCE.md) and [source notes](../DATA_SOURCES.md).
 
@@ -99,37 +99,11 @@ outputs/housing_indicators.sqlite
 
 It is ignored by Git because it is a reproducible binary artifact.
 
-## Power BI Next Step
+## Power BI report
 
-Use:
+Open [the finished report](powerbi/report/): three pages, five typed Power Query tables, twenty DAX measures, exact observation tables and explicit source-quality checks. Download the PBIX to use filters in Desktop, or view the PDF without installing Power BI. Tested, saved and reopened in Desktop on 16 October 2026.
 
-```text
-outputs/dashboard_ready_housing_indicators.csv
-```
-
-## Power BI Build Assets
-
-For a faster manual build, use the Power BI build kit:
-
-- `powerbi/build_assets/dashboard_page_spec.md`
-- `powerbi/build_assets/powerbi_measures.dax`
-- `powerbi/build_assets/powerbi_field_mapping.md`
-- `powerbi/build_assets/dashboard_main.csv`
-
-The recommended fast-build input is:
-
-```text
-powerbi/build_assets/dashboard_main.csv
-```
-
-Planned dashboard pages:
-
-1. Executive Summary
-2. Territorial Authority Comparison
-3. Indicator Trend
-4. Data Quality & Methodology
-
-No Power BI dashboard is claimed as complete until a `.pbix` file or screenshots exist.
+The earlier `powerbi/build_assets/` and manual guide are historical references. Their generic aggregation examples are not the finished model and should not be applied to mixed-unit source rows.
 
 ## Preliminary Findings
 
@@ -139,7 +113,7 @@ See:
 outputs/preliminary_findings.md
 ```
 
-Findings remain preliminary until Power BI visuals, indicator definitions, and stakeholder interpretation are validated.
+The report calculations and visuals have been checked against the selected source observations. The earlier analysis notes remain exploratory; no stakeholder review or policy conclusion is claimed.
 
 ## Limitations
 
@@ -148,5 +122,5 @@ Findings remain preliminary until Power BI visuals, indicator definitions, and s
 - The raw data file is ignored by Git and should be regenerated from the official HUD source.
 - `outputs/housing_indicators.sqlite` is ignored because it is reproducible and relatively large.
 - The selected indicator direction is not confirmed from the workbook itself.
-- The Power BI dashboard is not complete until `.pbix` or screenshots exist.
+- The completed report uses a preserved extract, not a scheduled live feed.
 - This is descriptive analysis, not causal analysis.

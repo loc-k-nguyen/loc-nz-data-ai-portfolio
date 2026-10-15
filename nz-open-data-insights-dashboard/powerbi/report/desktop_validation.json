@@ -1,0 +1,53 @@
+{
+  "status": "Passed read-only live Desktop DAX checks",
+  "latest": [
+    {
+      "Indicator[MetricID]": "register",
+      "[value]": 663.0,
+      "[date]": "2026-04-01T00:00:00",
+      "[coverage]": 65,
+      "[formatted]": "663",
+      "[national]": "Not available"
+    },
+    {
+      "Indicator[MetricID]": "rent-index",
+      "[value]": 1.2654,
+      "[date]": "2025-12-31T00:00:00",
+      "[coverage]": 66,
+      "[formatted]": "1.2654",
+      "[national]": "1.1199"
+    },
+    {
+      "Indicator[MetricID]": "rent-burden",
+      "[value]": 0.426,
+      "[date]": "2023-01-01T00:00:00",
+      "[coverage]": 67,
+      "[formatted]": "42.6%",
+      "[national]": "Not available"
+    },
+    {
+      "Indicator[MetricID]": "consents",
+      "[value]": 19.4023,
+      "[date]": "2026-03-01T00:00:00",
+      "[coverage]": 67,
+      "[formatted]": "19.4",
+      "[national]": "Not available"
+    },
+    {
+      "Indicator[MetricID]": "rent",
+      "[value]": 595.0,
+      "[date]": "2025-11-01T00:00:00",
+      "[coverage]": 64,
+      "[formatted]": "$595",
+      "[national]": "Not available"
+    }
+  ],
+  "guards": [
+    {
+      "[rows]": 13685,
+      "[duplicates]": 0,
+      "[mixed_units]": null,
+      "[missing_rent]": null
+    }
+  ]
+}

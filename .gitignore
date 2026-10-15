@@ -36,3 +36,7 @@ Thumbs.db
 
 # Agent tooling (local only)
 .claude/
+
+# Power BI local caches and user settings
+**/.pbi/
+**/unappliedChanges.json

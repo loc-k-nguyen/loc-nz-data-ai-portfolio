@@ -1,0 +1,81 @@
+{
+  "source": {
+    "name": "HUD Local Housing Statistics",
+    "url": "https://www.hud.govt.nz/stats-and-insights/local-housing-statistics/about-the-local-housing-statistics-dashboard",
+    "vintage": "April 2026 extract",
+    "file": "hud_local_housing_statistics_2026_04.xlsx",
+    "input_lf_sha256": "863bd0c54e20f928058e816265df4d42f29ba0978949f492d28857530b4334fd"
+  },
+  "quality": {
+    "sourceRows": 48953,
+    "sourceDuplicateKeys": 61,
+    "selectedDuplicateKeys": 0,
+    "territorialAuthorities": 67
+  },
+  "selectedRows": 13685,
+  "latestSeries": [
+    {
+      "id": "register",
+      "date": "2026-04-01",
+      "coverage": 65
+    },
+    {
+      "id": "rent",
+      "date": "2025-11-01",
+      "coverage": 64
+    },
+    {
+      "id": "consents",
+      "date": "2026-03-01",
+      "coverage": 67
+    },
+    {
+      "id": "rent-burden",
+      "date": "2023-01-01",
+      "coverage": 67
+    },
+    {
+      "id": "rent-index",
+      "date": "2025-12-31",
+      "coverage": 66
+    }
+  ],
+  "wellington": {
+    "register": [
+      "2026-04-01",
+      "TA",
+      "47",
+      663.0
+    ],
+    "rent": [
+      "2025-11-01",
+      "TA",
+      "47",
+      595.0
+    ],
+    "consents": [
+      "2026-03-01",
+      "TA",
+      "47",
+      19.4023
+    ],
+    "rent-burden": [
+      "2023-01-01",
+      "TA",
+      "47",
+      0.426
+    ],
+    "rent-index": [
+      "2025-12-31",
+      "TA",
+      "47",
+      1.2654
+    ]
+  },
+  "status": "Desktop validated; PBIX saved and reopened; three-page PDF exported and visually checked",
+  "desktopValidation": {
+    "date": "2026-10-16",
+    "version": "2.154.956.0 (May 2026)",
+    "results": "desktop_validation.json"
+  }
+}

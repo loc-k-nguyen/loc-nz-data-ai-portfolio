@@ -38,6 +38,14 @@ def test_duplicate_displayed_observation_stops_build(tmp_path):
         housing.build_payload(path)
 
 
+def test_fractional_percentage_keeps_raw_source_and_declares_display_scale():
+    payload = housing.build_payload(housing.DEFAULT_INPUT)
+    burden = next(s for s in payload["series"] if s["id"] == "rent-burden")
+    raw = next(r[3] for r in burden["values"] if r[:3] == ("2023-01-01", "TA", "47"))
+    assert raw == pytest.approx(0.426)
+    assert raw * burden["displayScale"] == pytest.approx(42.6)
+
+
 def test_empty_input_stops_build(tmp_path):
     path = tmp_path / "empty.csv"
     path.write_text("period,indicator_value\n", encoding="utf-8")

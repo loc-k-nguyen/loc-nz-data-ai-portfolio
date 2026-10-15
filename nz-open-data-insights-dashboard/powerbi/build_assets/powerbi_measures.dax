@@ -1,3 +1,5 @@
+// HISTORICAL BUILD KIT: finished report/model is in ../report/. Do not use generic aggregations across mixed units.
+
 -- Power BI measures for the HUD Local Housing Statistics dashboard.
 -- Import powerbi/build_assets/dashboard_main.csv and rename the table to:
 -- housing_indicators
